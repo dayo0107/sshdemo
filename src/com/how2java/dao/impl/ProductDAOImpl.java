@@ -17,5 +17,5 @@ public class ProductDAOImpl extends HibernateTemplate implements ProductDAO{
 	public void add(Product p) {
 		save(p);
 	}
-	
+
 }
