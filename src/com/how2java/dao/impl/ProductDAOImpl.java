@@ -9,7 +9,7 @@ import com.how2java.pojo.Product;
 
 public class ProductDAOImpl extends HibernateTemplate implements ProductDAO{
 	
-	public List list() {
+	public List<Product> list() {
 		return find("from Product");
 	}
 
